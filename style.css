@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.01rem;
+}
+
+main hr {
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+    margin-right: 347px;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0px;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 2.5rem;
+}
+
+.rightsection img {
+    width: 80%;
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+#element {
+    color: rgb(170, 107, 228);
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin-left: 150px;
+}
+
+.secondsection {
+    font-size: 1.9rem;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+}
+
+#quote {
+    color: rgb(255, 127, 80);
+}
+
+.thirdsection {
+    width: 80vw;
+    margin: 80px 0px 0px 150px;
+    height: 80vh;
+}
+
+.thirdsection h1 {
+    font-size: 2rem;
+}
+
+.thirdsection span {
+    color: grey;
+}
+
+.thirdsection .box {
+    background-color: white;
+    margin: 56px 0;
+    width: 80vw;
+    height: 2px;
+    display: flex
+}
+
+.thirdsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 220px;
+}
+
+.img-top {
+    width: 35px;
+    position: relative;
+    top: -42px;
+    left: -16px;
+}
+
+.vertical-text {
+    position: relative;
+    top: 75px;
+    width: 120px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: grey;
+    width: 150px;
+    font-size: 9px;
+}
+
+.fourthsection {
+    width: 80vw;
+    margin: 80px 0px 0px 150px;
+    height: 80vh;
+}
+
+.fourthsection h1 {
+    font-size: 2rem;
+}
+
+.fourthsection span {
+    color: grey;
+}
+
+.fourthsection .box {
+    background-color: white;
+    margin: 56px 0;
+    width: 80vw;
+    height: 2px;
+    display: flex
+}
+
+.fourthsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 80px;
+}
+
+.vertical-text-1,
+.vertical-text-2,
+.vertical-text-3,
+.vertical-text-4,
+.vertical-text-5,
+.vertical-text-6,
+.vertical-text-7,
+.vertical-text-8,
+.vertical-text-9 {
+    position: relative;
+    top: 75px;
+    width: 120px;
+}
+
+.vertical-text-1 {
+    color: rgb(255, 87, 34);
+}
+
+.vertical-text-2 {
+    color: blue;
+}
+
+.vertical-text-3 {
+    color: yellow;
+}
+
+.vertical-text-4 {
+    color: purple;
+    margin-top: 5px;
+}
+
+.vertical-text-5 {
+    color: rgb(97, 218, 251);
+
+}
+
+.rct {
+    width: 35px;
+    position: relative;
+    top: -40px;
+    left: -16px;
+}
+
+.js {
+    width: 35px;
+    position: relative;
+    top: -40px;
+    left: -16px;
+}
+
+.bs {
+    width: 35px;
+    position: relative;
+    top: -39px;
+    left: -16px;
+}
+
+.vertical-text-6 {
+    color: green;
+}
+
+.node {
+    width: 35px;
+    position: relative;
+    top: -40px;
+    left: -16px;
+}
+
+.vertical-text-7 {
+    color: grey;
+}
+
+.vertical-text-8 {
+    color: rgb(99, 170, 52);
+}
+
+.vertical-text-9 {
+    color: rgb(123, 182, 179);
+}
+
+footer {
+    background-color: #0e0e1a;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    color: #fff;
+    font-size: 24px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-decoration: none;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+#span {
+    margin-top: 5px;
+    font-size: 14px;
+    color: white;
+}
+
+.hii {
+    color: red;
+}
+
+.see {
+    color: green;
+}
+
+.you {
+    color: blue;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .firstsection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .firstsection>div {
+        width: 80%;
+        text-align: center;
+    }
+
+    .left {
+        margin-right: 0;
+    }
+
+    .rightsection img {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .secondsection,
+    .thirdsection,
+    .fourthsection {
+        max-width: 90vw;
+        margin-left: 5%;
+    }
+
+    .vertical {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vertical-text,
+    .verti cal-desc {
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .firstsection {
+        margin: 80px 0;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .thirdsection h1,
+    .fourthsection h1 {
+        font-size: 1.5rem;
+    }
+
+    .icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    #span {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .firstsection>div {
+        font-size: 1.2rem;
+    }
+
+    .secondsection,
+    .thirdsection,
+    .fourthsection {
+        margin-left: 0;
+    }
+
+    .vertical-desc {
+        font-size: 10px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
